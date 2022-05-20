@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <!-- Navbar Section Starts Here -->
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="#" title="Logo">
+                    <img src="images/BlazingIndianCuisineLogo.png" alt="Blazing Indian Cuisine" width="310" class="img-responsive">
+                </a>
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">Foods</a>
+                    </li>
+                    <li>
+                        <a href="contactus.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+    <!-- Navbar Section Ends Here -->
+
+    <!-- Food Search Section Starts Here -->
+    <section class="food-search">
+        <div class="container">
+            
+            <h2 class="text-center text-white">Fill this form to confirm your order.</h2>
+
+            <form action="#" class="order">
+                <fieldset>
+                    <legend>Selected Food</legend>
+
+                    <div class="food-menu-img">
+                        <img src="images/ChickenDumBiryani-menu.jpeg" alt="Chicken Dum Biryani" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="food-menu-desc">
+                        <h3>Chicken Dum Biryani</h3>
+                        <p class="food-price">₹200</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+                        
+                    </div>
+
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Delivery Details</legend>
+                    <div class="order-label">Full Name</div>
+                    <input type="text" name="full-name" placeholder="E.g. M.Praveen Kumar" class="input-responsive" required>
+
+                    <div class="order-label">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. 7995xxxxxx" class="input-responsive" required>
+
+                    <div class="order-label">Email</div>
+                    <input type="email" name="email" placeholder="E.g. hi@praveenkumar.com" class="input-responsive" required>
+
+                    <div class="order-label">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Street, City, Country" class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+
+            </form>
+
+        </div>
+    </section>
+    <!-- Food Search Section Ends Here -->
+
+    <!-- Social Section Starts Here -->
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/" target="_main"> <img src="https://seeklogo.com/images/F/facebook-icon-circle-logo-09F32F61FF-seeklogo.com.png" width="30"></a>
+                </li>
+
+                <li>
+                    <a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_Main"><img src="https://cdn.icon-icons.com/icons2/730/PNG/512/gmail_icon-icons.com_62758.png" width="30"></a>
+                </li>
+
+                <li>
+                    <a href="https://twitter.com/i/flow/login" target="_Main"><img src="https://icones.pro/wp-content/uploads/2021/02/icone-twitter-ronde-rouge.png" width="30"></a>
+                </li>
+
+                <li>
+                    <a href="https://www.instagram.com/accounts/login/" target="_Main"><img src="https://img.icons8.com/cute-clipart/344/instagram-new.png" width="35"></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- social Section Ends Here -->
+
+    <!-- footer Section Starts Here -->
+    <section class="footer">
+        <div class="container text-center">
+            <p>All rights reserved. Designed By <a href="#">M.Praveen Kumar</a></p>
+        </div>
+    </section>
+    <!-- footer Section Ends Here -->
+
+</body>
+</html>
